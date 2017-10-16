@@ -14,7 +14,10 @@ var MCCR0124 = {
             this.style.borderColor = "yellow";
         }
         function divOver(ev){
-            this.style.classList("highlight");
+            this.classList.toggle("highlight");
+        }
+        function divOut(ev){
+            this.classList.toggle("highlight");
         }
     }
     
