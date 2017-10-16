@@ -10,8 +10,8 @@ var MCCR0124 = {
         newDiv.addEventListener("mouseout", divOut);
         
         function divClicked(ev){
-            newDiv.setAttribute("border-color", "blue");
-            newDiv.setAttribute("background-color", "yellow");
+            this.newDiv.setAttribute("border-color", "blue");
+            this.newDiv.setAttribute("background-color", "yellow");
         }
     }
     
