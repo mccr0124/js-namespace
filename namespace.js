@@ -13,6 +13,9 @@ var MCCR0124 = {
             this.style.backgroundColor = "blue";
             this.style.borderColor = "yellow";
         }
+        function divOver(ev){
+            this.style.classList("highlight");
+        }
     }
     
 };
