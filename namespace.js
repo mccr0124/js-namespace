@@ -10,14 +10,14 @@ var MCCR0124 = {
         newDiv.addEventListener("mouseout", divOut);
     },
     click: function divClicked(ev){
-            this.style.backgroundColor = "blue";
-            this.style.borderColor = "yellow";
+            this.click.style.backgroundColor = "blue";
+            this.click.style.borderColor = "yellow";
     },
     over: function divOver(ev){
-           this.classList.toggle("highlight");
+           this.over.classList.toggle("highlight");
     },
     out: function divOut(ev){
-           this.classList.toggle("highlight");
+           this.out.classList.toggle("highlight");
     }
     
 };
